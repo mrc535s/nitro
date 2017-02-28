@@ -2,7 +2,7 @@
 Nitro UI (monorepo)
 
 
-- [] Component Pattern
-- [] Component List
-- [] Component Detail
-- [] Component Build
+- [ ] Component Pattern
+- [ ] Component List
+- [ ] Component Detail
+- [ ] Component Build
