@@ -1,4 +1,4 @@
-'use strict';
+//TODO:CLEANUP!
 
 var fs = require('fs'),
     union = require('union'),
@@ -27,8 +27,7 @@ function HttpServer(options) {
 
   if (options.root) {
     this.root = options.root;
-  }
-  else {
+  }else {
     try {
       fs.lstatSync('./public');
       this.root = './public';
