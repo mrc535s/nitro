@@ -2,7 +2,7 @@
 +[ ]+ COMPONENT_ROOT           |
   +                            |
   |                            |
-  +------>[] bin               |   bin = executable utility files
+  +------>[] bin               |   bin = component specific executable utility files
   |                            |
   |                            |
   +------>[] lib               |   lib = common js files across implementations
