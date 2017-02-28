@@ -18,15 +18,15 @@ Component/part/module file structure
   +------>[] impl              |   impl = implementations supported by this component
   |        +                   |
   |        +--->[]react        |
-  |        |    +              |   build.json = config for building implementation version
+  |        |    +              |   build.json = config for building implementation version - put url to repo and available versions?
   |        |    +->build.json  |
   |        |                   |
-  |        +--->[]vue          |   nitro.json = part definition config for Nitro assembly
+  |        +--->[]vue          |   nitro.json = part definition config for Nitro assembly.  What would go here? Maybe common component dependencies?
   |        |                   |
   |        |                   |
   |        +--->[]bootstrap    |   dist** = generated distrib file, assembled part that
   |                            |            can be deployed in a ui sandbox, to larger
-  +------>[+] part.json        |            deployed library or to test suite
+  +------>[+] nitro.json       |            deployed library or to test suite
   |                            |
   +------>[+] .nitro           |
   |                            |   .nitro = generated partid & semvar number
