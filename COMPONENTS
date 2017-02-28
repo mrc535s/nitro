@@ -1,3 +1,7 @@
+
+Component/part/module file structure
+
+```
 +---+                          +
 +[ ]+ COMPONENT_ROOT           |
   +                            |
@@ -28,3 +32,4 @@
   |                            |   .nitro = generated partid & semvar number
   |                            |
   +------>[] dist**            +
+```
