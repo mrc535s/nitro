@@ -14,7 +14,14 @@
     "nitro"
   ],
   "dependencies": {
-    "http-server": "latest"
+    "colors": "latest",
+    "corser": "latest",
+    "ecstatic": "latest",
+    "http-proxy": "latest",
+    "opener": "latest",
+    "optimist": "latest",
+    "portfinder": "latest",
+    "union": "latest"
   },
   "author": "Qodeninja <qodeninja@outlook.com>",
   "license": "MIT",
