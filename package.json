@@ -13,7 +13,10 @@
   "keywords": [
     "nitro"
   ],
-  "author": "Qodeninja <qodeninja@outlook.com> (http://qodeninja.com)",
+  "dependencies": {
+    "http-server": "latest"
+  },
+  "author": "Qodeninja <qodeninja@outlook.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nitroUI/nitro/issues"
